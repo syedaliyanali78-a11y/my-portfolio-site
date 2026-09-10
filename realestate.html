@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Estate | Luxury Properties</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #111; color: #fff; line-height: 1.6; }
+        header { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9') no-repeat center center/cover; padding: 90px 20px; text-align: center; }
+        h1 { color: #10b981; font-size: 2.8rem; margin-bottom: 10px; }
+        header p { color: #e2e8f0; font-size: 1.1rem; margin-bottom: 25px; }
+        .btn { background: #10b981; color: #000; padding: 12px 30px; text-decoration: none; font-weight: bold; border-radius: 5px; display: inline-block; }
+        
+        section { padding: 50px 20px; max-width: 1000px; margin: 0 auto; text-align: center; }
+        h2 { color: #10b981; font-size: 2rem; margin-bottom: 30px; position: relative; }
+        h2::after { content: ''; width: 60px; height: 3px; background: #10b981; display: block; margin: 8px auto 0; border-radius: 2px; }
+        
+        .grid { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .card { background: #1a1a1a; padding: 25px; border-radius: 10px; width: 280px; border: 1px solid #333; text-align: left; }
+        .card h3 { color: #10b981; margin-bottom: 10px; }
+        .card p { color: #aaa; font-size: 0.95rem; }
+        
+        .contact-form { background: #1a1a1a; padding: 30px; border-radius: 10px; max-width: 500px; margin: 0 auto; border: 1px solid #333; text-align: left; }
+        .contact-form label { display: block; margin-bottom: 5px; color: #10b981; font-size: 0.9rem; }
+        .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin-bottom: 15px; background: #111; border: 1px solid #333; color: #fff; border-radius: 5px; }
+        .contact-form button { width: 100%; background: #10b981; color: #000; padding: 12px; font-weight: bold; border: none; border-radius: 5px; cursor: pointer; }
+        
+        footer { background: #080808; text-align: center; padding: 20px; color: #555; font-size: 0.85rem; margin-top: 40px; border-top: 1px solid #222; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PRIME ESTATE HOMES</h1>
+        <p>Discover luxury living spaces and premium real estate investments.</p>
+        <a href="#contact" class="btn">View Listings</a>
+    </header>
+
+    <section id="properties">
+        <h2>Featured Properties</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Modern Villa</h3>
+                <p>5-Bed luxury villa with private pool, smart automation, and scenic views.</p>
+            </div>
+            <div class="card">
+                <h3>Downtown Penthouse</h3>
+                <p>High-rise penthouse featuring panoramic city views and premium interior finish.</p>
+            </div>
+            <div class="card">
+                <h3>Suburban Family Home</h3>
+                <p>Spacious 4-Bed house located in a quiet, gated community with lush parks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Schedule a Viewing</h2>
+        <div class="contact-form">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name">
+            <label>Phone / WhatsApp</label>
+            <input type="text" placeholder="Enter your phone">
+            <label>Property Interest</label>
+            <textarea rows="3" placeholder="Which property are you looking for?"></textarea>
+            <button type="submit">Request Callback</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Prime Estate. Finding Your Dream Home.</p>
+    </footer>
+
+</body>
+</html>
