@@ -16,12 +16,12 @@
         .project-section { padding-top: 60px; border-bottom: 8px solid #000; }
         
         header { padding: 90px 20px; text-align: center; }
-        h1 { font-size: 2.3rem; margin-bottom: 10px; }
+        header h1 { font-size: 2.3rem; margin-bottom: 10px; }
         header p { font-size: 1.05rem; margin-bottom: 20px; opacity: 0.85; }
         
         section { padding: 50px 20px; max-width: 900px; margin: 0 auto; text-align: center; }
-        h2 { font-size: 1.8rem; margin-bottom: 30px; position: relative; }
-        h2::after { content: ''; width: 50px; height: 3px; display: block; margin: 8px auto 0; border-radius: 2px; }
+        section h2 { font-size: 1.8rem; margin-bottom: 30px; position: relative; }
+        section h2::after { content: ''; width: 50px; height: 3px; display: block; margin: 8px auto 0; border-radius: 2px; }
         
         .grid { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
         .card { padding: 25px; border-radius: 10px; width: 280px; text-align: left; }
@@ -39,36 +39,36 @@
 
         /* --- 1. CAFE THEME --- */
         .cafe header { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb') no-repeat center center/cover; }
-        .cafe h1, .cafe h2, .cafe h2::after { color: #d4a373; background-color: #d4a373; }
+        .cafe h1, .cafe h2, .cafe h3, .cafe label { color: #d4a373; }
+        .cafe h2::after { background: #d4a373; }
         .cafe .card, .cafe .contact-form { background: #1a1a1a; border: 1px solid #333; }
-        .cafe .card h3, .cafe .contact-form label { color: #d4a373; }
         .cafe .contact-form input, .cafe .contact-form textarea { background: #121212; border: 1px solid #444; }
         .cafe .contact-form button, .cafe .btn { background: #d4a373; color: #000; }
         .cafe .btn:hover { background: #e9edc9; }
 
         /* --- 2. FITNESS THEME --- */
         .fitness header { background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48') no-repeat center center/cover; }
-        .fitness h1, .fitness h2, .fitness h2::after { color: #eab308; background-color: #eab308; }
+        .fitness h1, .fitness h2, .fitness h3, .fitness label { color: #eab308; }
+        .fitness h2::after { background: #eab308; }
         .fitness .card, .fitness .contact-form { background: #161616; border: 1px solid #222; }
-        .fitness .card h3, .fitness .contact-form label { color: #eab308; }
         .fitness .contact-form input, .fitness .contact-form textarea { background: #0b0b0b; border: 1px solid #333; }
         .fitness .contact-form button, .fitness .btn { background: #eab308; color: #000; }
         .fitness .btn:hover { background: #fef08a; }
 
         /* --- 3. AGENCY THEME --- */
         .agency header { background: radial-gradient(circle, #1e293b 0%, #0f172a 100%); }
-        .agency h1, .agency h2, .agency h2::after { color: #38bdf8; background-color: #38bdf8; }
+        .agency h1, .agency h2, .agency h3, .agency label { color: #38bdf8; }
+        .agency h2::after { background: #38bdf8; }
         .agency .card, .agency .contact-form { background: #1e293b; border: 1px solid #334155; }
-        .agency .card h3, .agency .contact-form label { color: #38bdf8; }
         .agency .contact-form input, .agency .contact-form textarea { background: #0f172a; border: 1px solid #334155; }
         .agency .contact-form button, .agency .btn { background: #38bdf8; color: #0f172a; }
         .agency .btn:hover { background: #7dd3fc; }
 
         /* --- 4. REAL ESTATE THEME --- */
         .realestate header { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9') no-repeat center center/cover; }
-        .realestate h1, .realestate h2, .realestate h2::after { color: #10b981; background-color: #10b981; }
+        .realestate h1, .realestate h2, .realestate h3, .realestate label { color: #10b981; }
+        .realestate h2::after { background: #10b981; }
         .realestate .card, .realestate .contact-form { background: #1a1a1a; border: 1px solid #333; }
-        .realestate .card h3, .realestate .contact-form label { color: #10b981; }
         .realestate .contact-form input, .realestate .contact-form textarea { background: #111; border: 1px solid #333; }
         .realestate .contact-form button, .realestate .btn { background: #10b981; color: #000; }
         .realestate .btn:hover { background: #6ee7b7; }
@@ -229,7 +229,7 @@
     <div id="realestate-sec" class="project-section realestate">
         <header>
             <h1>Prime Estate Homes</h1>
-            <p>Discover luxury living spaces and premium real estate investments.</p>
+            <p>Luxury living spaces and premium real estate investments.</p>
             <a href="#real-contact" class="btn">View Listings</a>
         </header>
 
@@ -270,4 +270,4 @@
     </footer>
 
 </body>
-</html>
+    </html>
