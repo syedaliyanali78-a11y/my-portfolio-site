@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Fitness Hub | Push Your Limits</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #0b0b0b; color: #f1f1f1; line-height: 1.6; }
+        header { background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48') no-repeat center center/cover; padding: 90px 20px; text-align: center; }
+        h1 { color: #eab308; font-size: 2.8rem; margin-bottom: 10px; letter-spacing: 1px; }
+        header p { color: #ccc; font-size: 1.1rem; margin-bottom: 25px; }
+        .btn { background: #eab308; color: #000; padding: 12px 30px; text-decoration: none; font-weight: bold; border-radius: 5px; display: inline-block; }
+        
+        section { padding: 50px 20px; max-width: 1000px; margin: 0 auto; text-align: center; }
+        h2 { color: #eab308; font-size: 2rem; margin-bottom: 30px; position: relative; }
+        h2::after { content: ''; width: 60px; height: 3px; background: #eab308; display: block; margin: 8px auto 0; border-radius: 2px; }
+        
+        .grid { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .card { background: #161616; padding: 25px; border-radius: 10px; width: 280px; border: 1px solid #222; text-align: left; }
+        .card h3 { color: #eab308; margin-bottom: 10px; }
+        .card p { color: #aaa; font-size: 0.95rem; }
+        
+        .contact-form { background: #161616; padding: 30px; border-radius: 10px; max-width: 500px; margin: 0 auto; border: 1px solid #222; text-align: left; }
+        .contact-form label { display: block; margin-bottom: 5px; color: #eab308; font-size: 0.9rem; }
+        .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin-bottom: 15px; background: #0b0b0b; border: 1px solid #333; color: #fff; border-radius: 5px; }
+        .contact-form button { width: 100%; background: #eab308; color: #000; padding: 12px; font-weight: bold; border: none; border-radius: 5px; cursor: pointer; }
+        
+        footer { background: #050505; text-align: center; padding: 20px; color: #666; font-size: 0.85rem; margin-top: 40px; border-top: 1px solid #1a1a1a; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>APEX FITNESS HUB</h1>
+        <p>Transform your physique with pro trainers and world-class equipment.</p>
+        <a href="#contact" class="btn">Join Free Trial</a>
+    </header>
+
+    <section id="programs">
+        <h2>Our Core Programs</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Strength & Power</h3>
+                <p>Heavy lifting zones with Olympic free weights and custom power racks.</p>
+            </div>
+            <div class="card">
+                <h3>Advanced Cardio</h3>
+                <p>State-of-the-art treadmills, rowers, and stair climbers for elite conditioning.</p>
+            </div>
+            <div class="card">
+                <h3>Personal Coaching</h3>
+                <p>1-on-1 expert guidance tailored strictly to your body transformation goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Start Your Journey</h2>
+        <div class="contact-form">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name">
+            <label>Phone Number</label>
+            <input type="text" placeholder="Enter your phone">
+            <label>Fitness Goal</label>
+            <textarea rows="3" placeholder="Tell us what you want to achieve..."></textarea>
+            <button type="submit">Book Free Session</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Apex Fitness Hub. Built for Champions.</p>
+    </footer>
+
+</body>
+</html>
